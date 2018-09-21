@@ -38,6 +38,7 @@
   - ps -aef | grep {process-name} e.g.  ps -aef | grep httpd
   - ps aux | grep {program-name} 
   - ps -C {program-name} -o pid=  e.g. ps -C firefox -o pid=
+  - ps -A
   
   Step2) Then you may know number of open files by a process using these commands
   i) pfiles {PID}
