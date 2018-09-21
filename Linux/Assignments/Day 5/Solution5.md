@@ -27,8 +27,9 @@
   eg. sudo dmidecode 
   Displays out hardware information about the installed RAM
 
-  [Link](https://www.binarytides.com/linux-command-check-memory-usage/)
+  
   ```
+  Ref. Link: https://www.binarytides.com/linux-command-check-memory-usage/
   
 * total number of open files by a process:
   ```
@@ -43,8 +44,9 @@
   ii) ls -l /proc/{PID}/fd
   iii) lsof -p {PID}
   
-  Ref. Link: https://www.cyberciti.biz/faq/howto-linux-get-list-of-open-files/
+ 
   ```
+  Ref. Link: https://www.cyberciti.biz/faq/howto-linux-get-list-of-open-files/
 * running duration of a process:
   ```
   Step1) Find PID of a process (say openvpn)
@@ -59,8 +61,9 @@
   Note: etime Display elapsed time since the process was started, in the form [[DD-]hh:]mm:ss.
   etimes Display elapsed time since the process was started, in seconds.
 
-  Ref. Link: https://www.cyberciti.biz/faq/how-to-check-how-long-a-process-has-been-running/
+ 
   ```
+  Ref. Link: https://www.cyberciti.biz/faq/how-to-check-how-long-a-process-has-been-running/
 # Task2) What is file descriptor
   ```
   In simple words, when you open a file, the operating system creates an entry to represent that file 
@@ -87,8 +90,9 @@
   SIGHUP is less secure way of killing a process as SIGTERM. 
   SIGKILL is the most unsafe way among the above three, to kill a process which terminates a process without saving.
   
-  Ref Link: https://www.tecmint.com/how-to-kill-a-process-in-linux/
+  
   ```
+  Ref Link: https://www.tecmint.com/how-to-kill-a-process-in-linux/
 # Task 4) What is parent process ID
   ```
   How to get parent from child pid
@@ -103,8 +107,9 @@
   Empty File Content by Redirecting to Null
   > access.log
   
-  Ref. Link https://www.tecmint.com/empty-delete-file-content-linux/
+ 
   ```
+   Ref. Link https://www.tecmint.com/empty-delete-file-content-linux/
 # Task 7) What are Running, Waiting, Stopped and Zombie processes
   ```
   Running
@@ -116,8 +121,9 @@ The process has been stopped, usually by receiving a signal. A process that is b
 Zombie
 This is a halted process which, for some reason, still has a task_struct data structure in the task vector. It is what it sounds like, a dead process.
   
-  Ref. Link https://www.tldp.org/LDP/tlk/kernel/processes.html
+  
   ```
+  Ref. Link https://www.tldp.org/LDP/tlk/kernel/processes.html
  # Task 8) What init process is responsible for
   ```
  The first process that starts when Linux System is booted is – init process, 
@@ -126,20 +132,20 @@ This is a halted process which, for some reason, still has a task_struct data st
   Init decides and allows itself to be killed, where kill is merely a  request for a shutdown.
   ```
   # Task 9) How do you you elevate the priority of a process
-  ```
+
  Ref. Link: https://www.thegeekstuff.com/2013/08/nice-renice-command-examples/?utm_source=tuicool
-  ```
+ 
    # Task 10) How do you check those process that are waiting for the resources
-  ```
+
  Ref. Link: http://osr507doc.xinuos.com/en/PERFORM/tool_ps.html
-  ```
+
    # Task 11) What are stdin, stdout, and stderr and how do we use them
-  ```
+
  Ref. Link: http://www.learnlinux.org.za/courses/build/shell-scripting/ch01s04.html
-  ```
+
    # Task 12) How many tables are there in iptables. What filter and nat table responsible for
-  ```
+ 
  Ref. Link: https://www.thegeekstuff.com/2011/01/iptables-fundamentals
-  ```
+ 
   
  
