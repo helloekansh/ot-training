@@ -27,7 +27,7 @@
   eg. sudo dmidecode 
   Displays out hardware information about the installed RAM
 
-  Ref Link: https://www.binarytides.com/linux-command-check-memory-usage/
+  [Link](https://www.binarytides.com/linux-command-check-memory-usage/)
   ```
   
 * total number of open files by a process:
