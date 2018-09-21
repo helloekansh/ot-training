@@ -133,6 +133,12 @@ This is a halted process which, for some reason, still has a task_struct data st
   Init decides and allows itself to be killed, where kill is merely a  request for a shutdown.
   ```
   # Task 9) How do you you elevate the priority of a process
+  ```
+ Nice command will launch a process with an user defined scheduling priority. Renice command will modify the scheduling priority of a running process.
+ 
+ e.g. $ nice -10 perl test.pl
+$ renice -n 5 -g geekstuff
+ ```
 
  Ref. Link: https://www.thegeekstuff.com/2013/08/nice-renice-command-examples/?utm_source=tuicool
  
