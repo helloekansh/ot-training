@@ -147,5 +147,11 @@ This is a halted process which, for some reason, still has a task_struct data st
  
  Ref. Link: https://www.thegeekstuff.com/2011/01/iptables-fundamentals
  
+ # Task 13) What is DNAT and SNAT, Explain both with an example
+ 
+ https://www.quora.com/What-is-difference-between-SNAT-and-DNAT
+ 
+ 
+ 
   
  
